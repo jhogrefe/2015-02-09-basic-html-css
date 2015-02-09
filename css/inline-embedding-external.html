@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS - Inline, Embedded and External Styles</title>
+  </head>
+  
+  <body>
+    
+    <h1>Differences Between Inline, Embedded and External Styles</h1>
+    
+    <p>
+       There are three styles to CSS: Inline, Embedded and External. Although all three work, the recommended convention is to use External CSS whenever possible.
+    </p>
+    
+    <h2>Inline CSS Style</h2>
+     
+    <p>
+       Inline CSS styles are written directly in the tag of the HTML document, <strong>and only affect the tag they are applied to.</strong><br><br>
+       For example:<br><br>
+       &ltp style="color: blue; text-transform: uppercase"&gt
+    </p>
+ 
+    <h2>Embedded CSS Style</h2>
+     
+    <p>
+       Embedded CSS styles are styles that are embedded in the head of the HTML document, <strong>and only affect the tags on the page they are embedded in</strong>.<br><br>
+       For example:<br><br>
+       &ltstyle&gt<br>
+       p { color: #00f; }
+       <br>
+       &lt/style&gt
+    </p>
+
+    <h2>External CSS Style</h2>
+     
+    <p>
+       External CSS styles are written in a separate document (.css) and t<strong>hen attached to any HTML document you link to</strong>. This makes it easy to make changes across a large amount of files.<br><br>
+       For example, in your HTML document head section you add a link like:<br><br>
+       &ltlink rel="stylesheet" type="text/css" href="styles.css" /&gt
+    </p>
+    
+<a href="../html/index.html" id="" title="index">Next</a><br>
+<a href="index.html" id="" title="index">CSS Home</a>
+
+  </body>
+</html>
